@@ -1,0 +1,31 @@
+#load packages
+
+library(car)
+library(conflicted)
+library(forcats)
+library(foreign)
+library(GGally)
+library(ggmap)
+library(gtsummary)
+require(INLA)
+library(MASS)
+library(reshape)
+require(patchwork)
+require(raster)
+require(rgeos)
+library(RColorBrewer)
+library(rcompanion)
+library(rgdal)
+library(sf)
+library(sp)
+library(spdep)
+library(tidyverse)
+library(tools)
+library(viridis)
+library(xlsx)
+
+#specify package preferences
+conflict_prefer("select", "dplyr")
+conflict_prefer("filter", "dplyr")
+conflict_prefer("rename", "dplyr")
+
